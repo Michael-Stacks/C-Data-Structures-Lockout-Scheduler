@@ -1,6 +1,9 @@
 Lockout/Tagout Scheduler
+
 A C++ data structures exercise that models and simulates an industrial lockout/tagout procedure to safely isolate machines. Leveraging key containers (unordered_map, vector, unordered_set) and OOP, it reads JSON inputs and produces an optimal, non‑redundant schedule based on team capabilities.
+
 🚀 Core Data Structures & Algorithms
+
 Fast lookups via unordered_map (O(1) average) for devices & machines
 
 Dynamic arrays (vector) to track related devices & team lists
@@ -12,6 +15,7 @@ Sorting (std::sort) with custom comparator to define machine order
 OOP design: clear class responsibilities, pointer-based associations
 
 🔧 Features
+
 JSON Parsing: Load real‑world data using nlohmann/json.
 
 Data Structure Mastery:
@@ -39,6 +43,7 @@ Step‑by‑step lockouts by machine
 Summary lockouts by team
 
 💡 Customization
+
 Change machine order by editing the lambda in main.cpp.
 
 Tweak JSON in assets/ to test robustness.
